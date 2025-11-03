@@ -30,12 +30,12 @@ title: "Обо мне"
 
 Вот некоторые примеры того, как это выглядит:
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px">
-  <img src="images/culture.png" style="width: auto; height: 250px; margin: 0px">
-  <img src="images/clothes.png" style="width: auto; height: 250px; margin: 0px">
+  <img src="images/culture.png" style="width: auto; max-height: 250px; margin: 0px">
+  <img src="images/clothes.png" style="width: auto; max-height: 250px; margin: 0px">
 </div>
 <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 0px">
-  <img src="images/chaoticworld.png" style="width: auto; height: 250px; margin: 0px">
-  <img src="images/film.png" style="width: auto; height: 250px; margin: 0px">
+  <img src="images/chaoticworld.png" style="width: auto; max-height: 250px; margin: 0px">
+  <img src="images/film.png" style="width: auto; max-height: 250px; margin: 0px">
 </div>
 </details>
 <details>
