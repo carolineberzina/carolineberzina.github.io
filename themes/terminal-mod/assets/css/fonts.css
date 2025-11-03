@@ -1,24 +1,20 @@
-/* latin-ext */
 @font-face {
   font-family: 'Libertinus Sans';
-  src: url('static/fonts/libertinus/LibertinusSans-Regular.otf') format('opentype');
+  src: url('../fonts/LibertinusSans-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Libertinus Sans';
-  src: url('static/fonts/libertinus/LibertinusSans-Bold.otf') format('opentype');
+  src: url('../fonts/LibertinusSans-Bold.ttf');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Libertinus Sans';
-  src: url('static/fonts/libertinus/LibertinusSans-Italic.otf') format('opentype');
+  src: url('../fonts/LibertinusSans-Italic.ttf');
   font-weight: normal;
   font-style: italic;
-}
-body {
-  font-family: 'Libertinus Sans', sans;
 }
