@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Libertinus Sans';
+  font-family: 'Libertinus Sans', sans;
   font-size: 1.2rem;
   max-width: 1200px;
   margin-left: auto;
