@@ -77,5 +77,27 @@ title: "Обо мне"
 * Тем, у кого нет возможности заниматься дважды в неделю, но хочется более быстрый результат, чем при занятиях один раз в неделю.
 
 Этот формат также отлично подходит для экспресс-подготовки к языковым экзаменам -- на мой взгляд, если фокусироваться только на типовых заданиях, не всегда эффективно тратить на них время на занятиях.
-
 </details>
+
+# Контакты
+Вы можете написать мне в <a href="https://t.me/carolineberzina" target="_blank">Telegram</a> или заполнить форму ниже.
+<form class="contact-form" action="https://formspree.io/f/mdkpqego" method="POST">
+  <label for="name">Имя: </label>
+  <input id="name" name="name" type="text" required>
+
+  <label for="email">E-mail: </label>
+  <input id="email" name="email" type="email" required>
+
+  <p>
+    <label for="message">Расскажите немного о ваших целях или оставьте поле пустым:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </p>
+
+  <!-- Hidden honeypot field (anti-spam) -->
+  <input name="_honey" type="text" style="display:none">
+
+  <!-- Redirect after sending -->
+  <input type="hidden" name="_redirect" value="/thank-you/">
+
+  <button type="submit">Отправить</button>
+</form>
