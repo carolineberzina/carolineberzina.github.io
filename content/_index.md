@@ -90,7 +90,7 @@ title: "Обо мне"
 
   <p>
     <label for="message">Расскажите немного о ваших целях или оставьте поле пустым:</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
+    <textarea id="message" name="message" rows="5"></textarea>
   </p>
 
   <!-- Hidden honeypot field (anti-spam) -->
