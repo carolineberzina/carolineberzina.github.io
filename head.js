@@ -72,7 +72,7 @@
     head.insertBefore(charset, head.firstChild);
   }
   
-  // Set viewport
+  // Set viewport (only if not already set)
   setMeta('viewport', 'width=device-width, initial-scale=1.0');
   
   // Set description
@@ -81,8 +81,10 @@
   // Set title
   document.title = config.title;
   
-  // Set stylesheet
-  setLink('stylesheet', basePath + 'styles.css');
+  // Set stylesheet (only if not already set - it should be in HTML now)
+  if (!document.querySelector('link[rel="stylesheet"]')) {
+    setLink('stylesheet', basePath + 'styles.css');
+  }
   
   // Set favicon
   setLink('shortcut icon', basePath + 'favicon.png');
