@@ -135,9 +135,9 @@ textarea:active {
 img {
   display: block;
   max-width: 100%;
-  border: 8px solid var(--accent);
+  border: 5px solid var(--accent);
   border-radius: var(--radius);
-  padding: 8px;
+  padding: 5px;
   overflow: hidden;
 }
 
